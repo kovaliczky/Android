@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Ancient Egypt Mythology</string>
+    <string name="title">How much do you know about Ancient Egyipt?</string>
+
+    <string name="first_question">1. Who is he?</string>
+    <string name="first_question_1">Sobek</string>
+    <string name="first_question_2">Thot</string>
+    <string name="first_question_3">Isis</string>
+    <string name="first_question_4">Re</string>
+
+    <string name="second_question">2. Who is the God of Sun?</string>
+    <string name="second_question_1">Oziris</string>
+    <string name="second_question_2">Amun</string>
+    <string name="second_question_3">Tefnut</string>
+    <string name="second_question_4">Re</string>
+
+    <string name="third_question">3. Who is the father of Seth?</string>
+    <string name="third_question_1">Tefnut</string>
+    <string name="third_question_2">Geb</string>
+    <string name="third_question_3">Su</string>
+    <string name="third_question_4">Nut</string>
+
+    <string name="fourth_question">4. Which animal is the symbol of Sunrise?</string>
+    <string name="fourth_question_1">Crocodile</string>
+    <string name="fourth_question_2">Scarabeus</string>
+    <string name="fourth_question_3">Snake</string>
+    <string name="fourth_question_4">Cat</string>
+
+    <string name="fifth_question">5. Who is the son of Isis?</string>
+    <string name="fifth_question_1">Anubis</string>
+    <string name="fifth_question_2">Bastet</string>
+    <string name="fifth_question_3">Thot</string>
+    <string name="fifth_question_4">Horus</string>
+
+    <string name="sixth_question">6. What kind of drink did defend the world from Sekhmet?</string>
+    <string name="sixth_question_1">Water</string>
+    <string name="sixth_question_2">Beer</string>
+    <string name="sixth_question_3">Wine</string>
+    <string name="sixth_question_4">Kumis</string>
+
+    <string name="seventh_question">7. Which farao believed in one God?</string>
+    <string name="seventh_question_1">Narmer</string>
+    <string name="seventh_question_2">Sethi I</string>
+    <string name="seventh_question_3">Ekhnaton</string>
+    <string name="seventh_question_4">Ramses II</string>
+
+    <string name="eighth_question">8. What is the symbol of Oziris?</string>
+    <string name="eighth_question_1">Spine</string>
+    <string name="eighth_question_2">Cat</string>
+    <string name="eighth_question_3">Eye</string>
+    <string name="eighth_question_4">Desert</string>
+
+    <string name="buttonText">Result</string>
+</resources>
