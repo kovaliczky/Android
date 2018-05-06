@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/linearLayoutStyleFor2player">
+
+                <TextView
+                    style="@style/playerTextViewStyle"
+                    android:text="@string/player_a" />
+
+                <TextView
+                    android:id="@+id/player_a_score"
+                    style="@style/pointTextViewStyle" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonRed"
+                    android:onClick="addOneforPlayerA"
+                    android:text="@string/red_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonYellow"
+                    android:onClick="addTwoforPlayerA"
+                    android:text="@string/yellow_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonGreen"
+                    android:onClick="addThreeforPlayerA"
+                    android:text="@string/green_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBrown"
+                    android:onClick="addFourforPlayerA"
+                    android:text="@string/brown_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBlue"
+                    android:onClick="addFiveforPlayerA"
+                    android:text="@string/blue_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonPink"
+                    android:onClick="addSixforPlayerA"
+                    android:text="@string/pink_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBlack"
+                    android:onClick="addSevenforPlayerA"
+                    android:text="@string/black_btn" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/linearLayoutStyleFor2player">
+
+                <TextView
+                    style="@style/playerTextViewStyle"
+                    android:text="@string/player_b" />
+
+                <TextView
+                    android:id="@+id/player_b_score"
+                    style="@style/pointTextViewStyle" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonRed"
+                    android:onClick="addOneforPlayerB"
+                    android:text="@string/red_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonYellow"
+                    android:onClick="addTwoforPlayerB"
+                    android:text="@string/yellow_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonGreen"
+                    android:onClick="addThreeforPlayerB"
+                    android:text="@string/green_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBrown"
+                    android:onClick="addFourforPlayerB"
+                    android:text="@string/brown_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBlue"
+                    android:onClick="addFiveforPlayerB"
+                    android:text="@string/blue_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonPink"
+                    android:onClick="addSixforPlayerB"
+                    android:text="@string/pink_btn" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:background="@color/colorButtonBlack"
+                    android:onClick="addSevenforPlayerB"
+                    android:text="@string/black_btn" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="resetScore"
+                android:text="@string/reset_btn" />
+
+            <Button
+                style="@style/buttonStyle"
+                android:onClick="undo"
+                android:text="@string/undo_btn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

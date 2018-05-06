@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tata Observatory</string>
+    <string name="businessName">Charles Posztoczky Observatory</string>
+    <string name="addressLine1"><a href="https://www.google.hu/maps/place/TIT+Posztoczky+K%C3%A1roly+Csillagvizsg%C3%A1l%C3%B3+%C3%A9s+M%C3%BAzeum/@47.6412886,18.3192937,17.6z/data=!4m12!1m6!3m5!1s0x0:0x34be8de4ccc6937f!2zRcO2dHbDtnMgSsOzenNlZiBHaW1uw6F6aXVtIMOpcyBLb2xsw6lnaXVt!8m2!3d47.6421954!4d18.3204822!3m4!1s0x476a460ac319c74f:0xcafa75ba6b1d02af!8m2!3d47.6407143!4d18.3196653">Eötvös u. 50.\n2890 Tata, Hungary</a></string>
+    <string name="addressLine2">2890 Tata, Hungary</string>
+    <string name="e_mail">Book your time</string>
+    <string name="entryCost">Free entry</string>
+    <string name="web"><a href="http://www.titkom.hu/tataicsillagda.html">Our site</a></string>
+</resources>

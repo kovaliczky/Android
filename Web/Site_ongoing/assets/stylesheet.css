@@ -1,0 +1,371 @@
+/*General*/
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;;
+	line-height: 1.8;
+	color: #f5f6f7;
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+
+.jumbotron {
+	padding: 80px 25px;
+}
+
+.icon {
+	font-size: 12px;
+}
+
+.glyph{
+	text-align: right;
+	font-size: 15px;
+}
+
+.active1{
+	background-color: #695767;
+}
+
+.active2{
+	background-color: #7D6300;
+}
+
+
+/*Navigation bar*/
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0px;
+    opacity: 0.8;
+    padding-bottom: 10px;
+    vertical-align: center;
+    
+}
+
+.navbar li a, .navbar .navbar-brand { 
+    color: #4D4D4D !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #896a86 !important;
+}
+
+.navbar ul{
+	vertical-align: center;
+	padding-top: 10px;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+     color: #fff !important;
+}
+
+.navbar-brand {
+	vertical-align: center;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+/* #1 Motivacio*/
+
+#motivacio .container{
+	background-color: #97974C; 
+    color: #ffffff;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 75px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+
+#motivacio img {
+	width: 40%;
+}
+
+.picture {
+	margin-left: 50px;
+}
+
+/*#2 Személyes Adatok*/
+
+#szemelyes {
+	background-color: #695767;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#szemelyes h1 {
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 20px;
+}
+
+#szemelyes table {
+	width: 100%;
+}
+
+/* #3 Szakmai Ismeretek*/
+
+#szakmaiIsm {
+	background-color: #e6e9ed;
+    color: #404040;
+    border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#szakmaiIsm h1 {
+	margin-bottom: 18px;
+}
+
+/* #4 Grafika*/
+
+#grafika {
+	background-color: #97974C; 
+    color: #ffffff;
+	border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#grafika h1 {
+	margin-bottom: 18px;
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 20px;
+
+}
+
+.carousel-inner img {
+    width: 80%; 
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #000000 !important;
+    background-color: #E1D8E0;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: -400px;
+    padding-right: -300px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; 
+    }
+}
+
+/* #5 Szakmai Tapasztalat*/
+
+#szakmaiTap {
+	color: #ffffff;
+	background-color: #9196a8;
+	border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#szakmaiTap h1 {
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 20px;
+}
+
+/*Patton*/
+
+.patton {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.patton_content {
+	display: none;
+}
+
+
+/*Ericsson*/
+.ericsson {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.ericsson_content {
+	display: none;
+}
+
+#Sudan{
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+#Sudan_content {
+	display: none;
+	border-radius: 10px;
+	background-color: #848394;
+	margin-top: -10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+
+#Spain{
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+#Spain_content {
+	display: none;
+	border-radius: 10px;
+	background-color: #848394;
+	margin-top: -10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+#Jakarta{
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+#Jakarta_content {
+	display: none;
+	border-radius: 10px;
+	background-color: #848394;
+	margin-top: -10px;
+	margin-left: -40px;
+  	padding-left: 40px;
+}
+
+/*Nokia*/
+.nokia {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.nokia_content {
+	display: none;
+}
+
+/* #6 Iskolák*/
+
+#iskola {
+	background-color: #E5E5CA;
+	color: #4E4E4E;
+	border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#iskola h1 {
+	border-bottom: 1px solid ;
+	padding-bottom: 20px;
+}
+
+#nyelv {
+	background-color: #E5E5CA;
+	color: #4E4E4E;
+	margin-top: 20px;
+	padding: 50px 50px 50px 50px;
+	border-radius: 30px;
+	box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+#nyelv h1{
+	font-size: 2.5em;
+	border-bottom: 1px solid ;
+	padding-bottom: 20px;
+}
+
+/* #7 Publikacio*/
+
+#publikacio h1 {
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 20px;
+}
+
+#publikacio{
+	background-color: #B99400;
+	border-radius: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 55px 50px 50px 50px;
+    box-shadow: 7px 7px 5px #CCCCCC;
+}
+
+.bexus_proj {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.bexus_proj_content {
+	display: none;
+}
+
+.bexus_conf {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.bexus_conf_content {
+	display: none;
+
+}
+
+.tdk_bme {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.tdk_bme_content {
+	display: none;
+}
+
+.tdk_sote {
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.tdk_sote_content {
+	display: none;
+
+}
+
+/*#8 Hobbi*/
+
+#hobbi {
+	background-color: #e6e9ed;
+    color: #404040;
+}
+
+#hobbi h1 {
+	padding-bottom: 40px;
+}

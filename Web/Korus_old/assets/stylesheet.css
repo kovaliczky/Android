@@ -1,0 +1,347 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.8;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+     font-weight: bold;
+     border-bottom: 1px solid #02b4ff;
+     color:  #fcad0c;
+     margin-bottom: 30px;
+     padding-bottom: 10px;
+}
+.container {
+    padding-top: 80px;
+}
+.navbar {
+     background-color: #000000;
+}
+
+#myNavbar {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.navbar-default .navbar-left > .active > a, 
+.navbar-default .navbar-left > .active > a:focus, 
+.navbar-default .navbar-left > .active > a:hover,
+.navbar-left  li a:focus, .navbar-left li a:hover {
+    background-color: #222 !important;
+    color: #fcad0c !important;
+    border-bottom: 2px solid #02b4ff !important;
+}
+
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+
+.navbar .container {
+    padding: 0px 0px;
+    padding-left: 15px;
+}
+
+#myNavbar img {
+    width: 23px;
+}
+
+.navbar .container { height: 30px; }
+.navbar-brand div {
+    background-image: url('images/KVVKlogo_v3.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 102px;
+    height: 115px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 24px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    
+}
+.navbar-default{
+    border: none;
+}
+#logo {
+    margin-top: 70px;
+}
+
+#logo img {
+    margin: auto;
+    width: 40%;
+}
+.fokep {
+    margin-top: 20px;
+}
+
+#social {
+    position: fixed;
+    right: 0px;
+    top: 63px;
+    z-index:99999;
+}
+
+#social ul {
+    list-style-type: none;
+    float: right;
+}
+
+#social ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+#social ul li a img {
+    width: 34px;
+}
+#hirek div iframe {
+    display: block;
+    border:none; 
+    overflow:hidden; 
+    width:500px; 
+    height:500px; 
+    background: white; 
+    margin:auto;
+}
+
+#hirek div {
+text-align: center;
+}
+.nav-tabs li a {
+    color: #777;
+}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#esemenyek .fb {
+    width:5%;
+}
+
+#esemenyek iframe {
+    max-width: 100%;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #e96d6d;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+}
+#magunkrol table {
+    transform: translateX(3%);
+}
+#magunkrol table td {
+    border: none;
+}
+
+
+#magunkrol .name {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    margin-bottom: -15px;
+}
+
+#magunkrol .row {
+    margin-top: 70px;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+#kayamar_pic {
+    background-image: url('images/tagok/_MG_2561_.jpg');
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+#kayamar_pic:hover, #kayamar_pic:active, #kayamar_pic:focus {
+    background-image: url('images/tagok/_MG_2566_.jpg');
+}
+
+.tag {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+#andi_pic {
+    background-image: url('images/tagok/_MG_2940_.jpg');    
+}
+#andi_pic:hover, #andi_pic:active, #andi_pic:focus {
+    background-image: url('images/tagok/_MG_2953_.jpg');
+}
+#balazs_pic {
+   background-image: url('images/tagok/_MG_2630_.jpg');
+   
+}
+#balazs_pic:hover, #balazs_pic:active, #balazs_pic:focus {
+    background-image: url('images/tagok/_MG_2632_.jpg');
+}
+#betti_pic {
+    background-image: url('images/tagok/_MG_2517_.jpg');
+    
+}
+#betti_pic:hover, #betti_pic:active, #betti_pic:focus {
+    background-image: url('images/tagok/_MG_2520_.jpg');
+}
+#dori_pic {
+    background-image: url('images/tagok/_MG_2813_.jpg');
+    
+}
+#dori_pic:hover, #dori_pic:active, #dori_pic:focus {
+    background-image: url('images/tagok/_MG_2815_.jpg');
+}
+
+#gabor_pic {
+    background-image: url('images/tagok/_MG_2737_.jpg');
+    
+}
+#gabor_pic:hover, #gabor_pic:active, #gabor_pic:focus {
+    background-image: url('images/tagok/_MG_2739_.jpg');
+}
+#hambi_pic {
+    background-image: url('images/tagok/_MG_2545_.jpg');
+   
+}
+#hambi_pic:hover, #hambi_pic:active, #hambi_pic:focus {
+    background-image: url('images/tagok/_MG_2552_.jpg');
+}
+#hetti_pic {
+    background-image: url('images/tagok/_MG_2827_.jpg');
+    
+}
+#hetti_pic:hover, #hetti_pic:active, #hetti_pic:focus {
+    background-image: url('images/tagok/_MG_2844_.jpg');
+}
+#judit_pic {
+    background-image: url('images/tagok/_MG_2639_.jpg');
+    
+}
+#judit_pic:hover, #judit_pic:active, #judit_pic:focus {
+    background-image: url('images/tagok/_MG_2647_.jpg');
+}
+
+#marci_pic {
+    background-image: url('images/tagok/_MG_2870_.jpg');
+    
+}
+#marci_pic:hover, #marci_pic:active, #marci_pic:focus {
+    background-image: url('images/tagok/_MG_2874_.jpg');
+}
+
+#mate_pic {
+    background-image: url('images/tagok/_MG_2698_.jpg');
+    
+}
+
+#mate_pic:hover, #mate_pic:active, #mate_pic:focus {
+    background-image: url('images/tagok/_MG_2714_.jpg');
+}
+
+#miki_pic {
+    background-image: url('images/tagok/_MG_2896_.jpg');
+    
+}
+
+#miki_pic:hover, #miki_pic:active, #miki_pic:focus {
+    background-image: url('images/tagok/_MG_2914_.jpg');
+}
+
+#nitti_pic {
+    background-image: url('images/tagok/_MG_2526_.jpg');
+    
+}
+
+#nitti_pic:hover, #nitti_pic:active, #nitti_pic:focus {
+    background-image: url('images/tagok/_MG_2529_.jpg');
+}
+
+/* 4. sor */
+#robi_pic {
+    background-image: url('images/tagok/_MG_2676_.jpg');
+    
+}
+
+#robi_pic:hover, #robi_pic:active, #robi_pic:focus {
+    background-image: url('images/tagok/_MG_2691_.jpg');
+}
+
+#tamas_pic {
+    background-image: url('images/tagok/_MG_2589_.jpg');
+    
+}
+
+#tamas_pic:hover, #tamas_pic:active, #tamas_pic:focus {
+    background-image: url('images/tagok/_MG_2592_.jpg');
+}
+
+#timi_pic {
+    background-image: url('images/tagok/_MG_2661_.jpg');
+    
+}
+
+#timi_pic:hover, #timi_pic:active, #timi_pic:focus {
+    background-image: url('images/tagok/_MG_2666_.jpg');
+}
+
+#tompi_pic {
+    background-image: url('images/tagok/_MG_2762_.jpg');
+    
+}
+
+#tompi_pic:hover, #tompi_pic:active, #tompi_pic:focus {
+    background-image: url('images/tagok/_MG_2778_.jpg');
+}
+
+

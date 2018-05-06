@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorButtonRed">#BF360C</color>
+    <color name="colorButtonYellow">#FFC107</color>
+    <color name="colorButtonGreen">#4CAF50</color>
+    <color name="colorButtonBrown">#795548</color>
+    <color name="colorButtonBlue">#0288D1</color>
+    <color name="colorButtonPink">#F48FB1</color>
+    <color name="colorButtonBlack">#000000</color>
+
+    <color name="colorBackground">#E8F5E9</color>
+    <color name="colorPlayerText">#616161</color>
+    <color name="colorPointText">#000000</color>
+
+    <color name="colorButtonText">#FAFAFA</color>
+</resources>

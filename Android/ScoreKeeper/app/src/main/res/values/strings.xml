@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="player_a">Player A</string>
+    <string name="player_b">Player B</string>
+    <string name="red_btn">+1 Point</string>
+    <string name="yellow_btn">+2 Points</string>
+    <string name="green_btn">+3 Points</string>
+    <string name="brown_btn">+4 Points</string>
+    <string name="blue_btn">+5 Points</string>
+    <string name="pink_btn">+6 Points</string>
+    <string name="black_btn">+7 Points</string>
+
+    <string name="reset_btn">Reset</string>
+    <string name="undo_btn">Undo</string>
+
+    <string name="initPoint">0</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.android.tataobservatory.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mainImage"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/pexels_photo" />
+
+        <TextView
+            style="@style/titleStyle"
+            android:layout_alignTop="@id/mainImage"
+            android:text="@string/businessName" />
+    </RelativeLayout>
+
+    <LinearLayout style="@style/layoutStyle">
+
+        <ImageView
+            style="@style/iconStyle"
+            android:src="@drawable/map_marker" />
+
+        <TextView
+            android:id="@+id/where"
+            style="@style/textStyle"
+            android:text="@string/addressLine1" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/layoutStyle">
+
+        <ImageView
+            style="@style/iconStyle"
+            android:src="@drawable/web" />
+
+        <TextView
+            android:id="@+id/web"
+            style="@style/textStyle"
+            android:text="@string/web" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/layoutStyle">
+
+        <ImageView
+            style="@style/iconStyle"
+            android:src="@drawable/currency_usd" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="@string/entryCost" />
+
+    </LinearLayout>
+
+    <Button
+        style="@style/btnStyle"
+        android:onClick="bookTime"
+        android:text="@string/e_mail" />
+
+</LinearLayout>

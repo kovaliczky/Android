@@ -1,0 +1,163 @@
+/***** General *****/
+body {
+	font-family: Arial;
+}
+
+
+
+/***** Header *****/
+
+#header {
+	background: url(../images/bg_header.png) no-repeat #fdf070;
+	font-size: 11px;
+	height: 113px;
+}
+
+#header a {
+	text-decoration: none;
+	color: #000;
+}
+
+#header a:hover {
+	background: none;
+	color: #af2227;
+}
+
+#header a.active{
+	color: #af2227;
+	font-weight: bold;
+}
+
+#header div.logo {
+	margin-top: 30px;
+}
+
+#header div.b1 {
+	z-index: 99;
+
+}
+
+/***** Menu *****/
+
+#menu {
+	background-color: #e28426;
+	height: 30px;
+	font-size: 18px;
+	font-family: 'Open Sans:800', sans-serif;
+	font-weight: bold;
+	border-color: #e28426;
+	position: relative;
+	z-index: 1;
+
+}
+
+#menu li a {
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 2px 2px #be6119;
+	line-height: 18px;
+	border-right: 1px solid #FFF;
+}
+#menu li.search_icon {
+	border: none;
+}
+
+#menu .dropdown-menu a {
+	border-top: 1px solid #be6119;
+	height: 50px;
+	text-transform: none;
+	font-family: 'Open Sans:800', sans-serif;
+	text-shadow: 2px 2px #be6119;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 45px;
+
+}
+
+#menu .dropdown-menu{
+	background-color: #e28426;
+	color: #FFF;
+	
+}
+
+#menu .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#menu .dropdown-menu a:hover, #menu li a:hover, #menu .dropdown:hover .dropdown-toggle {
+	background-color: #e85a1c;
+}
+
+#menu .navbar-form:hover {
+	background-color: #e85a1c;
+
+}
+
+/***** collapseSearch *****/
+
+#collapseSearch {
+	background-color: #f6ea76;
+}
+
+/***** egeszseg ******/
+
+#egeszseg {
+	background-color: #fff69d;
+}
+#egeszseg h1 {
+	text-transform: uppercase;
+	color: #e85a1c;
+	font-size: 30px;
+}
+
+#egeszseg p {
+	font-size: 18px;
+}
+
+#egeszseg .e_text{
+	margin-top: 60px;
+
+}
+
+#termek img {
+	display: block;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#termek{
+	background-color:  #fdf070;
+	padding-top: 10px;
+}
+
+#termek h1,#kviz h1 {
+	color: #e85a1c;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+#termek h2, #kviz p {
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#termek p {
+	margin-bottom: 30px;
+}
+
+#kitolto {
+	height: 30px;
+	background-color: #e28426;
+}
+
+#kviz {
+	background-image: url();
+}
+
+
+
+
+
