@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Music</string>
+    <string name="category_name">Categories</string>
+
+    <string name="category_rock">Rock</string>
+    <string name="category_pop">Pop</string>
+    <string name="category_electronic">Electronic</string>
+    <string name="category_relax">Relax</string>
+    <string name="category_hiphop">Hiphop</string>
+
+    <string name="playAll">Play All</string>
+</resources>
